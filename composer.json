@@ -1,0 +1,40 @@
+{
+  "name": "wuan-code/composer-foo",
+  "description": "composer-foo description",
+  "keywords": [
+    "php",
+    "composer"
+  ],
+  "homepage": "https://github.com/wuan-code/composer-foo",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "symfony/console": "5.4.x-dev"
+  },
+  "require-dev": {
+    "orchestra/testbench": "6.20.*",
+    "phpunit/phpunit": "8.5.20"
+  },
+  "autoload": {
+    "psr-4": {
+      "WuanCode\\ComposerFoo\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WuanCode\\ComposerFoo\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "wuan-code",
+      "email": "yaobin24@126.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
