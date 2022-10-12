@@ -1,1 +1,1 @@
-{"version":1,"defects":{"DeferTest::testDeferTime":5},"times":{"DeferTest::testDeferTime":1.086,"DeferTest::testDefer":1.077}}
+{"version":1,"defects":{"DeferTest::testDeferTime":5},"times":{"DeferTest::testDeferTime":1.086,"DeferTest::testDefer":3.136}}

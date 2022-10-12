@@ -6,7 +6,6 @@
 namespace WuanCode\ComposerFoo;
 
 use Closure;
-use Symfony\Component\Console\Output\ConsoleOutput;
 
 /**
  * 参照go 的defer作用，未实现多线程的功能
