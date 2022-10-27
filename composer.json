@@ -3,7 +3,8 @@
   "description": "composer-foo description",
   "keywords": [
     "php",
-    "composer"
+    "composer",
+    "defer"
   ],
   "homepage": "https://github.com/wuan-code/composer-foo",
   "type": "library",
